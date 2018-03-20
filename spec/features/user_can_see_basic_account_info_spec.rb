@@ -7,8 +7,13 @@ describe 'As a user' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit user_path(@user)
     end
+
     scenario 'I can see my name' do
       expect(page).to have_content(@user.name)
+    end
+
+    scenario 'I can see my nickname' do
+      expect(page).to have_content(@user.nickname)
     end
   end
 end

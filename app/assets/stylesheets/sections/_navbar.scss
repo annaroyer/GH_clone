@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  padding: 0 15%;
+  align-items: center;
+  background-color: #1a1a1a;
+  width: 100%;
+  .nav-link {
+    color: white;
+    padding: 15px;
+  }
+  .search-bar {
+    background-color: grey;
+    border: none;
+    border-radius: 3px;
+    min-width: 280px;
+    height: 30px;
+    color: white;
+  }
+  .search-bar:active {
+    border: none;
+  }
+}
+
+.profile-navbar {
+  width: inherit;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  .profile-nav-link {
+    color: grey;
+    border: none;
+    height: 69px;
+    margin: 0 20px;
+  }
+  .profile-nav-link:active {
+    border: none;
+    text-decoration: none;
+  }
+  .profile-nav-link:hover {
+    border-bottom: 1px solid grey;
+  }
+}
