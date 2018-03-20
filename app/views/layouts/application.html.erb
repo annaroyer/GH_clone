@@ -9,14 +9,23 @@
   </head>
 
   <body>
-    <nav class="navbar">
-      <ul>
-        <li>Pull Requests</li>
-        <li>Issues</li>
-        <li>Marketplace</li>
-        <li>Explore</li>
+    <nav class="navbar navbar-inverse">
+      <%= image_tag 'octocat.png', class: 'icon-image' %>
+      <form class="form-inline">
+        <input class='search-bar' type="search" placeholder="Search Github" />
+      </form>
+      <ul class="navbar-nav">
+        <%= link_to 'Pull Requests', '#', class: 'nav-link' %>
+        <%= link_to 'Issues', '#', class: 'nav-link' %>
+        <%= link_to 'Marketplace', '#', class: 'nav-link' %>
+        <%= link_to 'Explore', '#', class: 'nav-link' %>
       </ul>
+      <%= link_to 'Log Out', logout_path, class: 'nav-link' %>
     </nav>
-    <%= yield %>
+
+    <main class="main-page">
+
+      <%= yield %>
+    </main>
   </body>
 </html>

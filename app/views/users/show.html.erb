@@ -1,3 +1,40 @@
+<section class="user-info">
+  <%= image_tag current_user.image, class: 'profile-image' %>
+  <h1><%= current_user.name %></h1>
+  <h2 class="heading-2"><%= current_user.nickname %></h2>
+  <p><%= current_user.bio %></p>
+  <p><%= image_tag 'location-icon.png', class: 'small-icon-image' %><%= current_user.location %></p>
+  <%= image_tag 'mail-icon.png', class: 'small-icon-image' %><%= mail_to current_user.email %>
+</section>
 
-<h1><%= current_user.name %></h1>
-<%= link_to 'Log Out', logout_path %>
+<section class="repo-info container-fluid">
+  <div class="row">
+    <nav class="profile-navbar">
+      <%= button_to 'Overview', '#', class: 'profile-nav-link', method: 'get' %>
+      <%= button_to "Repositories #{current_user.repositories}", '#', class: 'profile-nav-link', method: 'get' %>
+      <%= button_to 'Stars', '#', class: 'profile-nav-link', method: 'get' %>
+      <%= button_to "Followers #{current_user.followers}", '#', class: 'profile-nav-link', method: 'get' %>
+      <%= button_to "Following #{current_user.following}", '#', class: 'profile-nav-link', method: 'get' %>
+    </nav>
+  </div>
+  <br /><p>Pinned respositories</p>
+  <div class="pinned-repo-container">
+    <figure class="pinned-repo">
+    </figure>
+
+    <figure class="pinned-repo">
+    </figure>
+
+    <figure class="pinned-repo">
+    </figure>
+
+    <figure class="pinned-repo">
+    </figure>
+
+    <figure class="pinned-repo">
+    </figure>
+
+    <figure class="pinned-repo">
+    </figure>
+  </div>
+</section>
