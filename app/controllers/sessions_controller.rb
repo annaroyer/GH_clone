@@ -2,7 +2,7 @@ class SessionsController < ApplicationController
   def create
     auth = request.env['omniauth.auth']
     user = User.update_or_create(auth)
-    redirect_to user_path(user)
+    redirect_to "/#{user.nickname}"
     session[:user_id] = user.uid
   end
 
