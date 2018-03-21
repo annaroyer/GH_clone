@@ -23,9 +23,9 @@ ActiveRecord::Schema.define(version: 20180319181401) do
     t.string "image"
     t.string "bio"
     t.string "location"
-    t.integer "repositories"
-    t.integer "followers"
-    t.integer "following"
+    t.integer "repo_count"
+    t.integer "follower_count"
+    t.integer "following_count"
     t.string "token"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
