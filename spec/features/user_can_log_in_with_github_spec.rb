@@ -4,16 +4,28 @@ def stub_omniauth
   OmniAuth.config.test_mode = true
 
   OmniAuth.config.mock_auth[:github] =
-  OmniAuth::AuthHash.new({
-    "uid"=>"26782839",
-    "info"=> {
+  OmniAuth::AuthHash.new(
+    {"uid"=>"26782839",
+     "info"=> {
       "nickname"=>"annaroyer",
       "email"=>"anna.royer@colorado.edu",
       "name"=>"Anna Royer",
       "image"=>"https://avatars0.githubusercontent.com/u/26782839?v=4",
       "urls"=>{"GitHub"=>"https://github.com/annaroyer", "Blog"=>""}
     },
-    "credentials"=>{"token"=>"5f13e5a5356568ef391219247a05758311d4c5bd", "expires"=>false}
+    "credentials"=>{"token"=>ENV["GITHUB_ACCESS_TOKEN"]},
+    "extra"=>
+    {
+      "raw_info"=>
+      {
+         "location"=>"Boulder, CO",
+         "bio"=>"Student",
+         "public_repos"=>39,
+         "followers"=>4,
+         "following"=>4,
+         "total_private_repos"=>0
+      }
+    }
   })
 end
 
