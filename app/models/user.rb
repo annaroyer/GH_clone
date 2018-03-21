@@ -9,11 +9,9 @@ class User < ApplicationRecord
       image: auth[:info][:image],
       location: auth[:extra][:raw_info][:location],
       bio: auth[:extra][:raw_info][:bio],
-      repositories: auth[:extra][:raw_info][:public_repos],
-      followers: auth[:extra][:raw_info][:followers],
-      following: auth[:extra][:raw_info][:following],
-      created_at: auth[:extra][:raw_info][:created_at],
-      updated_at: auth[:extra][:raw_info][:updated_at],
+      repo_count: auth[:extra][:raw_info][:public_repos] + auth[:extra][:raw_info][:total_private_repos],
+      follower_count: auth[:extra][:raw_info][:followers],
+      following_count: auth[:extra][:raw_info][:following],
       token: auth[:credentials][:token]
     )
     user
