@@ -16,10 +16,11 @@ describe 'As a user' do
       expect(page).to have_content(@github_user.bio)
       expect(page).to have_content(@github_user.location)
       expect(page).to have_xpath("//img[contains(@src, '#{@github_user.image}')]")
+      expect(page).to have_button('Overview')
       expect(page).to have_button("Repositories #{@github_user.repo_count}")
-      expect(page).to have_button("Repositories #{@github_user.follower_count}")
-      expect(page).to have_button("Repositories #{@github_user.following_count}")
-      expect(page).to have_button("Repositories #{@github_user.star_count}")
+      expect(page).to have_button("Followers #{@github_user.follower_count}")
+      expect(page).to have_button("Following #{@github_user.following_count}")
+      expect(page).to have_button("Stars #{@github_user.starred_repos.count}")
     end
   end
 end
