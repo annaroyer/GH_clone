@@ -9,7 +9,7 @@ class GithubService < ApplicationController
   end
 
   def get_url(url)
-    response = @conn.get("https://api.github.com/user/#{url}")
+    response = @conn.get("https://api.github.com/#{url}")
     JSON.parse(response.body, symbolize_names: true)
   end
 end
