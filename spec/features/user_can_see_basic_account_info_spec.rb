@@ -5,7 +5,7 @@ describe 'As a user' do
     before(:each) do
       user = create(:user)
       @github_user = GithubUser.new(user)
-      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@github_user)
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
       visit user_path(@github_user)
     end
 
