@@ -8,9 +8,9 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.string :image
       t.string :bio
       t.string :location
-      t.integer :repositories
-      t.integer :followers
-      t.integer :following
+      t.integer :repo_count
+      t.integer :follower_count
+      t.integer :following_count
       t.string :token
       t.timestamps
     end
