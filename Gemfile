@@ -21,11 +21,14 @@ gem 'figaro'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry'
+
+end
+
+group :test do
   gem 'capybara'
-  gem 'shoulda-matchers'
   gem 'rspec-rails'
-  gem 'database_cleaner'
   gem 'factory_bot_rails'
+  gem 'webmock'
 end
 
 group :development do
