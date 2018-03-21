@@ -1,4 +1,4 @@
-class GithubUser < SimpleDelegator
+class GithubUser < SimpleDelegator    
   def github_service
     GithubService.new(token)
   end
