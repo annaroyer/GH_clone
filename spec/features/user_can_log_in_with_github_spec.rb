@@ -32,6 +32,9 @@ end
 describe 'As a user' do
   context 'When  I log in using github' do
     scenario 'I can see my basic info' do
+      json_body = File.open('./spec/fixtures/starred_repos.json')
+      stub_request(:get, "https://api.github.com/user/starred")
+         .to_return(status: 200, body: json_body, headers: {})
       stub_omniauth
       visit root_path
 
@@ -42,7 +45,7 @@ describe 'As a user' do
 
       expect(page).to have_link('Log Out')
       expect(current_path).to eq('/annaroyer')
-      
+
       expect(page).to have_content('Anna Royer')
       expect(page).to have_content('annaroyer')
       expect(page).to have_link('anna.royer@colorado.edu')
