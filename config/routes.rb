@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'auth/github/callback', to: 'sessions#create'
   get 'logout', to: 'sessions#destroy'
 
-  resources :users, only: [:show]
+  get '/:username', to: 'users#show'
 end

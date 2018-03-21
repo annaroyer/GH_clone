@@ -6,7 +6,7 @@ describe 'As a user' do
       user = create(:user)
       @github_user = GithubUser.new(user)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
-      visit user_path(@github_user)
+      visit "/#{user.nickname}"
     end
 
     scenario 'I can see my basic info' do
