@@ -12,7 +12,7 @@
     <nav class="profile-navbar">
       <%= button_to 'Overview', '#', class: 'profile-nav-link', method: 'get' %>
       <%= button_to "Repositories #{current_user.repo_count}", '#', class: 'profile-nav-link', method: 'get' %>
-      <%= button_to "Stars #{@github_user.star_count}", '#', class: 'profile-nav-link', method: 'get' %>
+      <%= button_to "Stars #{@github_user.starred_repos.count}", '#', class: 'profile-nav-link', method: 'get' %>
       <%= button_to "Followers #{current_user.follower_count}", '#', class: 'profile-nav-link', method: 'get' %>
       <%= button_to "Following #{current_user.following_count}", '#', class: 'profile-nav-link', method: 'get' %>
     </nav>
