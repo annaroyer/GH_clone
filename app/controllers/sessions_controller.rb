@@ -4,7 +4,6 @@ class SessionsController < ApplicationController
     user = User.update_or_create(auth)
     redirect_to user_path(user)
     session[:user_id] = user.uid
-    binding.pry
   end
 
   def destroy
