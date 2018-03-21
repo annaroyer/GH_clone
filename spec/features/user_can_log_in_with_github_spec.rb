@@ -13,7 +13,7 @@ def stub_omniauth
       "image"=>"https://avatars0.githubusercontent.com/u/26782839?v=4",
       "urls"=>{"GitHub"=>"https://github.com/annaroyer", "Blog"=>""}
     },
-    "credentials"=>{"token"=>ENV["GITHUB_ACCESS_TOKEN"]},
+    "credentials"=>{"token"=>"78970ajhlkjh"},
     "extra"=>
     {
       "raw_info"=>
