@@ -1,0 +1,996 @@
+[
+  {
+    "id": "7391763500",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "ref": "spec_harness_edits",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-03-16T16:26:21Z"
+  },
+  {
+    "id": "7391763342",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "ref": "bi_merchants",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-03-16T16:26:19Z"
+  },
+  {
+    "id": "7391763121",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "ref": "anna_business_intelligence",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-03-16T16:26:18Z"
+  },
+  {
+    "id": "7391181620",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "ref": "invoice_item_relationship_endpoints",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-03-16T14:47:20Z"
+  },
+  {
+    "id": "7391181419",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "ref": "anna_relationship_endpoints",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-03-16T14:47:18Z"
+  },
+  {
+    "id": "7391181131",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "ref": "ar_relationship_endpoints",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2018-03-16T14:47:16Z"
+  },
+  {
+    "id": "7391015666",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2408826061,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f7983928748e6d9bb764460ade245a8f818677c0",
+      "before": "883b9de894974d7675c0150ca42d7966583aba60",
+      "commits": [
+        {
+          "sha": "f7983928748e6d9bb764460ade245a8f818677c0",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/f7983928748e6d9bb764460ade245a8f818677c0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T14:19:26Z"
+  },
+  {
+    "id": "7391012457",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2408824453,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "883b9de894974d7675c0150ca42d7966583aba60",
+      "before": "2af8b1b09a6ec1f71c0619eed10a280acf5f4bfe",
+      "commits": [
+        {
+          "sha": "883b9de894974d7675c0150ca42d7966583aba60",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/883b9de894974d7675c0150ca42d7966583aba60"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T14:18:55Z"
+  },
+  {
+    "id": "7391009695",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2408822995,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "2af8b1b09a6ec1f71c0619eed10a280acf5f4bfe",
+      "before": "fb4346427dc58f30239db62eb2a41eefc8d49d6a",
+      "commits": [
+        {
+          "sha": "2af8b1b09a6ec1f71c0619eed10a280acf5f4bfe",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/2af8b1b09a6ec1f71c0619eed10a280acf5f4bfe"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T14:18:27Z"
+  },
+  {
+    "id": "7390541030",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 49,
+      "pull_request": {
+        "url": "https://api.github.com/repos/annaroyer/rales_engine/pulls/49",
+        "id": 175523336,
+        "html_url": "https://github.com/annaroyer/rales_engine/pull/49",
+        "diff_url": "https://github.com/annaroyer/rales_engine/pull/49.diff",
+        "patch_url": "https://github.com/annaroyer/rales_engine/pull/49.patch",
+        "issue_url": "https://api.github.com/repos/annaroyer/rales_engine/issues/49",
+        "number": 49,
+        "state": "open",
+        "locked": false,
+        "title": "Anna business intelligence",
+        "user": {
+          "login": "annaroyer",
+          "id": 26782839,
+          "avatar_url": "https://avatars0.githubusercontent.com/u/26782839?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/annaroyer",
+          "html_url": "https://github.com/annaroyer",
+          "followers_url": "https://api.github.com/users/annaroyer/followers",
+          "following_url": "https://api.github.com/users/annaroyer/following{/other_user}",
+          "gists_url": "https://api.github.com/users/annaroyer/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/annaroyer/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/annaroyer/subscriptions",
+          "organizations_url": "https://api.github.com/users/annaroyer/orgs",
+          "repos_url": "https://api.github.com/users/annaroyer/repos",
+          "events_url": "https://api.github.com/users/annaroyer/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/annaroyer/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "* add bi endpoint for customer favorite merchant \r\n* add bi endpoint for item best day\r\n* add bi endpoint for item most items\r\n* add controller specs and model specs for each\r\n* make small changes to items and invoice_items unit price pass spec harness\r\n* make small changes to testing stubs to pass all tests\r\n\r\n* ALL tests passing! (ours & spec harness)",
+        "created_at": "2018-03-16T12:47:32Z",
+        "updated_at": "2018-03-16T12:47:32Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "requested_reviewers": [
+
+        ],
+        "requested_teams": [
+
+        ],
+        "labels": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/annaroyer/rales_engine/pulls/49/commits",
+        "review_comments_url": "https://api.github.com/repos/annaroyer/rales_engine/pulls/49/comments",
+        "review_comment_url": "https://api.github.com/repos/annaroyer/rales_engine/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/annaroyer/rales_engine/issues/49/comments",
+        "statuses_url": "https://api.github.com/repos/annaroyer/rales_engine/statuses/7b784b318facaa8dc015a5436f6a80bd84088443",
+        "head": {
+          "label": "annaroyer:anna_business_intelligence",
+          "ref": "anna_business_intelligence",
+          "sha": "7b784b318facaa8dc015a5436f6a80bd84088443",
+          "user": {
+            "login": "annaroyer",
+            "id": 26782839,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/26782839?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/annaroyer",
+            "html_url": "https://github.com/annaroyer",
+            "followers_url": "https://api.github.com/users/annaroyer/followers",
+            "following_url": "https://api.github.com/users/annaroyer/following{/other_user}",
+            "gists_url": "https://api.github.com/users/annaroyer/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/annaroyer/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/annaroyer/subscriptions",
+            "organizations_url": "https://api.github.com/users/annaroyer/orgs",
+            "repos_url": "https://api.github.com/users/annaroyer/repos",
+            "events_url": "https://api.github.com/users/annaroyer/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/annaroyer/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 124961783,
+            "name": "rales_engine",
+            "full_name": "annaroyer/rales_engine",
+            "owner": {
+              "login": "annaroyer",
+              "id": 26782839,
+              "avatar_url": "https://avatars0.githubusercontent.com/u/26782839?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/annaroyer",
+              "html_url": "https://github.com/annaroyer",
+              "followers_url": "https://api.github.com/users/annaroyer/followers",
+              "following_url": "https://api.github.com/users/annaroyer/following{/other_user}",
+              "gists_url": "https://api.github.com/users/annaroyer/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/annaroyer/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/annaroyer/subscriptions",
+              "organizations_url": "https://api.github.com/users/annaroyer/orgs",
+              "repos_url": "https://api.github.com/users/annaroyer/repos",
+              "events_url": "https://api.github.com/users/annaroyer/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/annaroyer/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/annaroyer/rales_engine",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/annaroyer/rales_engine",
+            "forks_url": "https://api.github.com/repos/annaroyer/rales_engine/forks",
+            "keys_url": "https://api.github.com/repos/annaroyer/rales_engine/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/annaroyer/rales_engine/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/annaroyer/rales_engine/teams",
+            "hooks_url": "https://api.github.com/repos/annaroyer/rales_engine/hooks",
+            "issue_events_url": "https://api.github.com/repos/annaroyer/rales_engine/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/annaroyer/rales_engine/events",
+            "assignees_url": "https://api.github.com/repos/annaroyer/rales_engine/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/annaroyer/rales_engine/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/annaroyer/rales_engine/tags",
+            "blobs_url": "https://api.github.com/repos/annaroyer/rales_engine/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/annaroyer/rales_engine/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/annaroyer/rales_engine/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/annaroyer/rales_engine/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/annaroyer/rales_engine/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/annaroyer/rales_engine/languages",
+            "stargazers_url": "https://api.github.com/repos/annaroyer/rales_engine/stargazers",
+            "contributors_url": "https://api.github.com/repos/annaroyer/rales_engine/contributors",
+            "subscribers_url": "https://api.github.com/repos/annaroyer/rales_engine/subscribers",
+            "subscription_url": "https://api.github.com/repos/annaroyer/rales_engine/subscription",
+            "commits_url": "https://api.github.com/repos/annaroyer/rales_engine/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/annaroyer/rales_engine/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/annaroyer/rales_engine/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/annaroyer/rales_engine/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/annaroyer/rales_engine/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/annaroyer/rales_engine/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/annaroyer/rales_engine/merges",
+            "archive_url": "https://api.github.com/repos/annaroyer/rales_engine/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/annaroyer/rales_engine/downloads",
+            "issues_url": "https://api.github.com/repos/annaroyer/rales_engine/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/annaroyer/rales_engine/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/annaroyer/rales_engine/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/annaroyer/rales_engine/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/annaroyer/rales_engine/labels{/name}",
+            "releases_url": "https://api.github.com/repos/annaroyer/rales_engine/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/annaroyer/rales_engine/deployments",
+            "created_at": "2018-03-12T22:58:29Z",
+            "updated_at": "2018-03-16T07:44:16Z",
+            "pushed_at": "2018-03-16T12:43:53Z",
+            "git_url": "git://github.com/annaroyer/rales_engine.git",
+            "ssh_url": "git@github.com:annaroyer/rales_engine.git",
+            "clone_url": "https://github.com/annaroyer/rales_engine.git",
+            "svn_url": "https://github.com/annaroyer/rales_engine",
+            "homepage": null,
+            "size": 679,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 1,
+            "license": null,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "annaroyer:master",
+          "ref": "master",
+          "sha": "fb4346427dc58f30239db62eb2a41eefc8d49d6a",
+          "user": {
+            "login": "annaroyer",
+            "id": 26782839,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/26782839?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/annaroyer",
+            "html_url": "https://github.com/annaroyer",
+            "followers_url": "https://api.github.com/users/annaroyer/followers",
+            "following_url": "https://api.github.com/users/annaroyer/following{/other_user}",
+            "gists_url": "https://api.github.com/users/annaroyer/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/annaroyer/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/annaroyer/subscriptions",
+            "organizations_url": "https://api.github.com/users/annaroyer/orgs",
+            "repos_url": "https://api.github.com/users/annaroyer/repos",
+            "events_url": "https://api.github.com/users/annaroyer/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/annaroyer/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 124961783,
+            "name": "rales_engine",
+            "full_name": "annaroyer/rales_engine",
+            "owner": {
+              "login": "annaroyer",
+              "id": 26782839,
+              "avatar_url": "https://avatars0.githubusercontent.com/u/26782839?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/annaroyer",
+              "html_url": "https://github.com/annaroyer",
+              "followers_url": "https://api.github.com/users/annaroyer/followers",
+              "following_url": "https://api.github.com/users/annaroyer/following{/other_user}",
+              "gists_url": "https://api.github.com/users/annaroyer/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/annaroyer/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/annaroyer/subscriptions",
+              "organizations_url": "https://api.github.com/users/annaroyer/orgs",
+              "repos_url": "https://api.github.com/users/annaroyer/repos",
+              "events_url": "https://api.github.com/users/annaroyer/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/annaroyer/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/annaroyer/rales_engine",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/annaroyer/rales_engine",
+            "forks_url": "https://api.github.com/repos/annaroyer/rales_engine/forks",
+            "keys_url": "https://api.github.com/repos/annaroyer/rales_engine/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/annaroyer/rales_engine/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/annaroyer/rales_engine/teams",
+            "hooks_url": "https://api.github.com/repos/annaroyer/rales_engine/hooks",
+            "issue_events_url": "https://api.github.com/repos/annaroyer/rales_engine/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/annaroyer/rales_engine/events",
+            "assignees_url": "https://api.github.com/repos/annaroyer/rales_engine/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/annaroyer/rales_engine/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/annaroyer/rales_engine/tags",
+            "blobs_url": "https://api.github.com/repos/annaroyer/rales_engine/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/annaroyer/rales_engine/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/annaroyer/rales_engine/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/annaroyer/rales_engine/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/annaroyer/rales_engine/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/annaroyer/rales_engine/languages",
+            "stargazers_url": "https://api.github.com/repos/annaroyer/rales_engine/stargazers",
+            "contributors_url": "https://api.github.com/repos/annaroyer/rales_engine/contributors",
+            "subscribers_url": "https://api.github.com/repos/annaroyer/rales_engine/subscribers",
+            "subscription_url": "https://api.github.com/repos/annaroyer/rales_engine/subscription",
+            "commits_url": "https://api.github.com/repos/annaroyer/rales_engine/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/annaroyer/rales_engine/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/annaroyer/rales_engine/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/annaroyer/rales_engine/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/annaroyer/rales_engine/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/annaroyer/rales_engine/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/annaroyer/rales_engine/merges",
+            "archive_url": "https://api.github.com/repos/annaroyer/rales_engine/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/annaroyer/rales_engine/downloads",
+            "issues_url": "https://api.github.com/repos/annaroyer/rales_engine/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/annaroyer/rales_engine/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/annaroyer/rales_engine/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/annaroyer/rales_engine/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/annaroyer/rales_engine/labels{/name}",
+            "releases_url": "https://api.github.com/repos/annaroyer/rales_engine/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/annaroyer/rales_engine/deployments",
+            "created_at": "2018-03-12T22:58:29Z",
+            "updated_at": "2018-03-16T07:44:16Z",
+            "pushed_at": "2018-03-16T12:43:53Z",
+            "git_url": "git://github.com/annaroyer/rales_engine.git",
+            "ssh_url": "git@github.com:annaroyer/rales_engine.git",
+            "clone_url": "https://github.com/annaroyer/rales_engine.git",
+            "svn_url": "https://github.com/annaroyer/rales_engine",
+            "homepage": null,
+            "size": 679,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Ruby",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "open_issues_count": 1,
+            "license": null,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/annaroyer/rales_engine/pulls/49"
+          },
+          "html": {
+            "href": "https://github.com/annaroyer/rales_engine/pull/49"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/annaroyer/rales_engine/issues/49"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/annaroyer/rales_engine/issues/49/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/annaroyer/rales_engine/pulls/49/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/annaroyer/rales_engine/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/annaroyer/rales_engine/pulls/49/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/annaroyer/rales_engine/statuses/7b784b318facaa8dc015a5436f6a80bd84088443"
+          }
+        },
+        "author_association": "OWNER",
+        "merged": false,
+        "mergeable": null,
+        "rebaseable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "maintainer_can_modify": false,
+        "commits": 6,
+        "additions": 150,
+        "deletions": 44,
+        "changed_files": 18
+      }
+    },
+    "public": true,
+    "created_at": "2018-03-16T12:47:32Z"
+  },
+  {
+    "id": "7390523960",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2408563792,
+      "size": 26,
+      "distinct_size": 6,
+      "ref": "refs/heads/anna_business_intelligence",
+      "head": "7b784b318facaa8dc015a5436f6a80bd84088443",
+      "before": "9d928e91dbabb6cb6084fadf2b194aab64f2a83e",
+      "commits": [
+        {
+          "sha": "62ba3dd2a0d6bda369ebe0b242fcbb00f7ba3986",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "controllers for most items and most revenue",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/62ba3dd2a0d6bda369ebe0b242fcbb00f7ba3986"
+        },
+        {
+          "sha": "451234825978bfda9ff5d5a95fcbdbf20f19c06b",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "methods for BI on merchants started",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/451234825978bfda9ff5d5a95fcbdbf20f19c06b"
+        },
+        {
+          "sha": "9790e22d634874fe494a016d5face90d0f8348b9",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "add routes for BI",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/9790e22d634874fe494a016d5face90d0f8348b9"
+        },
+        {
+          "sha": "49cd0ca6a3f8e678d3a4bcac583661f2d2393018",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "passing tests for merchant BI",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/49cd0ca6a3f8e678d3a4bcac583661f2d2393018"
+        },
+        {
+          "sha": "83e7d4396f3af8a80dba73cd2dd6b0650893a91c",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "Merge branch 'master' into bi_merchants",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/83e7d4396f3af8a80dba73cd2dd6b0650893a91c"
+        },
+        {
+          "sha": "6dd69e9260c5b2cac20c79fa41feda19bbb4dfb4",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "Kathrine"
+          },
+          "message": "Merge pull request #47 from annaroyer/anna_business_intelligence\n\nAnna business intelligence",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/6dd69e9260c5b2cac20c79fa41feda19bbb4dfb4"
+        },
+        {
+          "sha": "ba9534f2b2f990a341779ccca40e8b60070ed663",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "pending invoices and favorite for merchant methods added",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/ba9534f2b2f990a341779ccca40e8b60070ed663"
+        },
+        {
+          "sha": "7c6e9f0e0471cdc832a9c474df5c83116dfbb878",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "most revenue, most items and total revenue",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/7c6e9f0e0471cdc832a9c474df5c83116dfbb878"
+        },
+        {
+          "sha": "f7367dfc2290cd574ab582e3bf9bc8ea952af2da",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "most revenue for items",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/f7367dfc2290cd574ab582e3bf9bc8ea952af2da"
+        },
+        {
+          "sha": "1b0b1eb299708b6a9213fdc06a0648e588b071f5",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "new routes for merchant and items",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/1b0b1eb299708b6a9213fdc06a0648e588b071f5"
+        },
+        {
+          "sha": "bda7c44c2c103e3bf7b5a759bdcf56c2b383a9a5",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "migrations",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/bda7c44c2c103e3bf7b5a759bdcf56c2b383a9a5"
+        },
+        {
+          "sha": "8febeffcdc2b04771a38e49dbe862c8d989f165f",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "controllers for new routes",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/8febeffcdc2b04771a38e49dbe862c8d989f165f"
+        },
+        {
+          "sha": "3138f318815d7b043204c2d1df47c5fbbd6e9a41",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "one more method to go",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/3138f318815d7b043204c2d1df47c5fbbd6e9a41"
+        },
+        {
+          "sha": "d4a241efc2e7fd3fce27925a359a4c14237e3ec2",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "fixed merge issue",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/d4a241efc2e7fd3fce27925a359a4c14237e3ec2"
+        },
+        {
+          "sha": "dba5ca8b27031afdf43b0440ec0cc4aa6c61dca1",
+          "author": {
+            "email": "katy.jane8@gmail.com",
+            "name": "katyjane8"
+          },
+          "message": "bi for person b complete",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/dba5ca8b27031afdf43b0440ec0cc4aa6c61dca1"
+        },
+        {
+          "sha": "150c59bc6053947b7690c287f00e38b849e565e9",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Merge pull request #48 from annaroyer/bi_merchants\n\nBi merchants",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/150c59bc6053947b7690c287f00e38b849e565e9"
+        },
+        {
+          "sha": "7651f5dbc4462d81c2f292a3c5124c19556bdf38",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/7651f5dbc4462d81c2f292a3c5124c19556bdf38"
+        },
+        {
+          "sha": "66ff7541cf36d3877460281de7fa479a3ab0bc6d",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/66ff7541cf36d3877460281de7fa479a3ab0bc6d"
+        },
+        {
+          "sha": "14a31fb721936790f1ee56886616c0030aefd179",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/14a31fb721936790f1ee56886616c0030aefd179"
+        },
+        {
+          "sha": "fb4346427dc58f30239db62eb2a41eefc8d49d6a",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/fb4346427dc58f30239db62eb2a41eefc8d49d6a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T12:43:55Z"
+  },
+  {
+    "id": "7389226220",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2407874216,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "fb4346427dc58f30239db62eb2a41eefc8d49d6a",
+      "before": "14a31fb721936790f1ee56886616c0030aefd179",
+      "commits": [
+        {
+          "sha": "fb4346427dc58f30239db62eb2a41eefc8d49d6a",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/fb4346427dc58f30239db62eb2a41eefc8d49d6a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T07:44:16Z"
+  },
+  {
+    "id": "7389223977",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2407873011,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "14a31fb721936790f1ee56886616c0030aefd179",
+      "before": "66ff7541cf36d3877460281de7fa479a3ab0bc6d",
+      "commits": [
+        {
+          "sha": "14a31fb721936790f1ee56886616c0030aefd179",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/14a31fb721936790f1ee56886616c0030aefd179"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T07:43:35Z"
+  },
+  {
+    "id": "7389213580",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2407867396,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "66ff7541cf36d3877460281de7fa479a3ab0bc6d",
+      "before": "7651f5dbc4462d81c2f292a3c5124c19556bdf38",
+      "commits": [
+        {
+          "sha": "66ff7541cf36d3877460281de7fa479a3ab0bc6d",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/66ff7541cf36d3877460281de7fa479a3ab0bc6d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T07:40:20Z"
+  },
+  {
+    "id": "7389208882",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26782839,
+      "login": "annaroyer",
+      "display_login": "annaroyer",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/annaroyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26782839?"
+    },
+    "repo": {
+      "id": 124961783,
+      "name": "annaroyer/rales_engine",
+      "url": "https://api.github.com/repos/annaroyer/rales_engine"
+    },
+    "payload": {
+      "push_id": 2407864945,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "7651f5dbc4462d81c2f292a3c5124c19556bdf38",
+      "before": "150c59bc6053947b7690c287f00e38b849e565e9",
+      "commits": [
+        {
+          "sha": "7651f5dbc4462d81c2f292a3c5124c19556bdf38",
+          "author": {
+            "email": "anna.royer@colorado.edu",
+            "name": "Anna Royer"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/annaroyer/rales_engine/commits/7651f5dbc4462d81c2f292a3c5124c19556bdf38"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2018-03-16T07:38:56Z"
+  }
+]
