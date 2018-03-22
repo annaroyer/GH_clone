@@ -37,4 +37,16 @@
     <figure class="pinned-repo">
     </figure>
   </div>
+
+  <br /><p>Contribution Activity</p>
+
+  <div class="activity-feed">
+    <h4>Created <%= @github_user.recent_commits %> commits in <%= @github_user.recent_repo_commits.count %> repositories</h4>
+    <% @github_user.recent_repo_commits.each do |repo_name, commit_count| %>
+    <p>
+      <%= link_to repo_name, "https://github.com/#{repo_name}"%>
+      <%= commit_count %> commits
+    </p>
+    <% end %>
+  </div>
 </section>
