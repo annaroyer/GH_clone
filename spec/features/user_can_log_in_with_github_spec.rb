@@ -59,6 +59,11 @@ describe 'As a user' do
       expect(page).to have_button("Followers 4")
       expect(page).to have_button("Following 4")
       expect(page).to have_button("Stars 1")
+
+      expect(page).to have_content("Created 49 commits in 3 repositories")
+      expect(page).to have_content('annaroyer/api_curious 21 commits')
+      expect(page).to have_content('annaroyer/dog-party-BE2 1 commit')
+      expect(page).to have_content('annaroyer/rales_engine 27 commits')
     end
   end
 end
