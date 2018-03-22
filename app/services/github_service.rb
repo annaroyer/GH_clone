@@ -8,19 +8,10 @@ class GithubService
     JSON.parse(response.body, symbolize_names: true)
   end
 
-  def self.get_url(url)
-    response = conn.get(url)
-    JSON.parse(response.body, symbolize_names: true)
-  end
-
   private
     attr_reader :headers
 
     def conn
       Faraday.new('https://api.github.com', headers: headers)
-    end
-
-    def self.conn
-      Faraday.new('https://api.github.com')
     end
 end
