@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/user/starred
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - token <ACCESS_TOKEN>
+      User-Agent:
+      - Faraday v0.12.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 22 Mar 2018 17:22:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4999'
+      X-Ratelimit-Reset:
+      - '1521742961'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"abb59d6f898ef2a38ee47950bb2f0a8d"
+      X-Oauth-Scopes:
+      - user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 520c9da346db88e40719
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.095641'
+      X-Github-Request-Id:
+      - C32E:4BF3:18FEE53:394BA5D:5AB3E661
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":9252256,"name":"food-rescue-robot","full_name":"boulder-food-rescue/food-rescue-robot","owner":{"login":"boulder-food-rescue","id":18725077,"avatar_url":"https://avatars1.githubusercontent.com/u/18725077?v=4","gravatar_id":"","url":"https://api.github.com/users/boulder-food-rescue","html_url":"https://github.com/boulder-food-rescue","followers_url":"https://api.github.com/users/boulder-food-rescue/followers","following_url":"https://api.github.com/users/boulder-food-rescue/following{/other_user}","gists_url":"https://api.github.com/users/boulder-food-rescue/gists{/gist_id}","starred_url":"https://api.github.com/users/boulder-food-rescue/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/boulder-food-rescue/subscriptions","organizations_url":"https://api.github.com/users/boulder-food-rescue/orgs","repos_url":"https://api.github.com/users/boulder-food-rescue/repos","events_url":"https://api.github.com/users/boulder-food-rescue/events{/privacy}","received_events_url":"https://api.github.com/users/boulder-food-rescue/received_events","type":"Organization","site_admin":false},"private":false,"html_url":"https://github.com/boulder-food-rescue/food-rescue-robot","description":"A
+        Rails App for Managing \"Just in Time\" Food Rescue, Developed by/for Boulder
+        Food Rescue in Boulder, CO, USA","fork":false,"url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot","forks_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/forks","keys_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/keys{/key_id}","collaborators_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/teams","hooks_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/hooks","issue_events_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/issues/events{/number}","events_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/events","assignees_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/assignees{/user}","branches_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/branches{/branch}","tags_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/tags","blobs_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/git/refs{/sha}","trees_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/git/trees{/sha}","statuses_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/statuses/{sha}","languages_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/languages","stargazers_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/stargazers","contributors_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/contributors","subscribers_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/subscribers","subscription_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/subscription","commits_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/commits{/sha}","git_commits_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/git/commits{/sha}","comments_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/comments{/number}","issue_comment_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/issues/comments{/number}","contents_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/contents/{+path}","compare_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/compare/{base}...{head}","merges_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/merges","archive_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/downloads","issues_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/issues{/number}","pulls_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/pulls{/number}","milestones_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/milestones{/number}","notifications_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/labels{/name}","releases_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/releases{/id}","deployments_url":"https://api.github.com/repos/boulder-food-rescue/food-rescue-robot/deployments","created_at":"2013-04-05T22:52:49Z","updated_at":"2018-03-15T13:58:53Z","pushed_at":"2018-03-10T00:49:52Z","git_url":"git://github.com/boulder-food-rescue/food-rescue-robot.git","ssh_url":"git@github.com:boulder-food-rescue/food-rescue-robot.git","clone_url":"https://github.com/boulder-food-rescue/food-rescue-robot.git","svn_url":"https://github.com/boulder-food-rescue/food-rescue-robot","homepage":"","size":5117,"stargazers_count":29,"watchers_count":29,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":43,"mirror_url":null,"archived":false,"open_issues_count":18,"license":null,"forks":43,"open_issues":18,"watchers":29,"default_branch":"master","permissions":{"admin":false,"push":false,"pull":true}}]'
+    http_version: 
+  recorded_at: Thu, 22 Mar 2018 17:22:41 GMT
+recorded_with: VCR 4.0.0
