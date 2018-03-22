@@ -1,6 +1,6 @@
-class GithubService < ApplicationController
+class GithubService
   def initialize(access_token)
-    @access_token = access_token
+    @headers = { authorization: "token #{access_token}" }
   end
 
   def get_url(url)
@@ -8,14 +8,19 @@ class GithubService < ApplicationController
     JSON.parse(response.body, symbolize_names: true)
   end
 
+  def self.get_url(url)
+    response = conn.get(url)
+    JSON.parse(response.body, symbolize_names: true)
+  end
+
   private
-    attr_reader :access_token
+    attr_reader :headers
 
     def conn
       Faraday.new('https://api.github.com', headers: headers)
     end
 
-    def headers
-      { authorization: "token #{access_token}" }
+    def self.conn
+      Faraday.new('https://api.github.com')
     end
 end
