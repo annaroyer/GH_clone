@@ -5,6 +5,11 @@ FactoryBot.define do
     nickname "annaroyer"
     name "Anna Royer"
     image "https://avatars0.githubusercontent.com/u/26782839?v=4"
-    token "5f13e5a5356568ef391219247a05758311d4c5bd"
+    bio 'Student'
+    location 'Boulder, CO'
+    follower_count 4
+    following_count 4
+    repo_count 39
+    token ENV['ACCESS_TOKEN']
   end
 end
