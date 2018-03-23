@@ -33,7 +33,7 @@ describe 'As a user' do
   context 'When  I log in using github' do
     scenario 'I can see my basic info' do
       starred_repos = File.open('./spec/fixtures/starred_repos.json')
-      events = File.open('./spec/fixtures/events.json')
+      events = File.open('./spec/fixtures/my_events.json')
       stub_request(:get, "https://api.github.com/user/starred")
          .to_return(status: 200, body: starred_repos, headers: {})
       stub_request(:get, "https://api.github.com/users/annaroyer/events")
