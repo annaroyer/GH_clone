@@ -15,10 +15,14 @@
   display: flex;
   flex-wrap: wrap;
   .pinned-repo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 120px;
     min-width: 330px;
     border: 1px solid grey;
     margin: 10px;
+    padding: 8px 20px;
     border-radius: 5px;
   }
 }

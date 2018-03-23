@@ -34,6 +34,10 @@ class GithubUser < SimpleDelegator
     end
   end
 
+  def pinned_repos
+    repos.sample(6)
+  end
+
   def organizations
     github_service.get_url("users/#{nickname}/orgs").map do |org|
       Organization.new(org) if org

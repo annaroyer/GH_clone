@@ -27,23 +27,12 @@
   </div>
   <br /><p>Pinned respositories</p>
   <div class="pinned-repo-container">
-    <figure class="pinned-repo">
-    </figure>
-
-    <figure class="pinned-repo">
-    </figure>
-
-    <figure class="pinned-repo">
-    </figure>
-
-    <figure class="pinned-repo">
-    </figure>
-
-    <figure class="pinned-repo">
-    </figure>
-
-    <figure class="pinned-repo">
-    </figure>
+    <% @github_user.pinned_repos.each do |repo| %>
+      <figure class="pinned-repo">
+        <h4><%= link_to repo.name, repo.html_url %></h4>
+        <p><%= repo.language %></p>
+      </figure>
+    <% end %>
   </div>
 
   <br /><p>Contribution Activity</p>
