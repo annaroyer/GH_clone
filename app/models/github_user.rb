@@ -29,13 +29,13 @@ class GithubUser < SimpleDelegator
   end
 
   def repos
-    github_service.get_url("user/repos?per_page=#{repo_count}").map do |raw_repo|
+    github_service.get_url("user/repos?per_page=100").map do |raw_repo|
       Repo.new(raw_repo)
     end
   end
 
   def pinned_repos
-    repos.sample(6)
+    repos.first(6)
   end
 
   def organizations
