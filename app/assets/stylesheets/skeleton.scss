@@ -23,12 +23,20 @@
   }
 }
 
-.activity-feed {
-  .feed_card {
-    min-height: 120px;
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  .feed-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    min-height: 60px;
     min-width: 660px;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     margin: 10px;
-    border-radius: 5px;
+    .timestamp {
+      color: grey;
+    }
   }
 }
