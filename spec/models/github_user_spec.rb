@@ -38,5 +38,14 @@ describe GithubUser do
         end
       end
     end
+
+    describe '#activity_events' do
+      it 'returns a collection of events a user receives' do
+        VCR.use_cassette('activity_feed') do
+          expect(@github_user.activity_events.count).to eq(30)
+          expect(@github_user.activity_events.first.summary).to eq('lnchambers added memcmahon to lnchambers/potterspec')
+        end
+      end
+    end
   end
 end
