@@ -1,7 +1,7 @@
 class CreateEvent
   attr_reader :user_avatar,
               :created_at
-              
+
   def initialize(attrs={})
     @user_avatar = attrs[:actor][:avatar_url]
     @user_name = attrs[:actor][:login]
