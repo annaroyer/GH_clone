@@ -38,6 +38,8 @@ describe 'As a user' do
          .to_return(status: 200, body: starred_repos, headers: {})
       stub_request(:get, "https://api.github.com/users/annaroyer/events")
         .to_return(status: 200, body: events, headers: {})
+      stub_request(:get, "https://api.github.com/users/annaroyer/orgs")
+        .to_return(status: 200, body: '[]', headers: {})
 
       stub_omniauth
       visit root_path

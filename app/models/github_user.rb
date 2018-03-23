@@ -35,10 +35,8 @@ class GithubUser < SimpleDelegator
   end
 
   def organizations
-    unless get_orgs.empty?
-      get_orgs.map do |org|
-        Organization.new(org) if org
-      end
+    github_service.get_url("users/#{nickname}/orgs").map do |org|
+      Organization.new(org) if org
     end
   end
 
@@ -47,9 +45,5 @@ class GithubUser < SimpleDelegator
       github_service.get_url("users/#{nickname}/events").find_all do |event|
         event[:type] == 'PushEvent'
       end
-    end
-
-    def get_orgs
-      github_service.get_url("users/#{nickname}/orgs")
     end
 end
