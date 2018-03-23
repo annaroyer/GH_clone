@@ -6,18 +6,18 @@ describe MemberEvent do
 
   context 'instance methods' do
     describe '#summary' do
-      it 'returns a summary of the event' do
+      xit 'returns a summary of the event' do
         expect(subject.summary).to eq('lnchambers added memcmahon to lnchambers/potterspec')
       end
     end
   end
 
   context 'attributes' do
-    it 'has a user avatar' do
+    xit 'has a user avatar' do
       expect(subject.user_avatar).to eq("https://avatars.githubusercontent.com/u/32661560?")
     end
 
-    it 'has a created_at' do
+    xit 'has a created_at' do
       expect(subject.created_at).to eq("2018-03-22T16:11:32Z")
     end
   end

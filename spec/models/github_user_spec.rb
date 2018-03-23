@@ -7,12 +7,26 @@ describe GithubUser do
       @github_user = GithubUser.new(user)
     end
 
-    describe '#push_events' do
-      it 'returns a collection of push events for a user' do
-        VCR.use_cassette('events') do
+    VCR.use_cassette('events') do
+      describe '#push_events' do
+        it 'returns a collection of push events for a user' do
           events = @github_user.push_events
-          expect(events.count).to eq(11)
-          expect(events.first.repo_name).to eq('annaroyer/api_curious')
+          expect(events.count).to eq(8)
+          expect(events.first.repo_name).to eq('annaroyer/checks-for-understanding')
+        end
+      end
+
+      describe '#recent_commits' do
+        it "returns the count of a user's recent commits" do
+          expect(@github_user.recent_commits).to eq(46)
+        end
+      end
+
+      describe '#recent_repo_commits' do
+        it 'returns commit counts grouped by repository' do
+          expect(@github_user.recent_repo_commits.count).to eq(4)
+          expect(@github_user.recent_repo_commits.keys.first).to eq('annaroyer/checks-for-understanding')
+          expect(@github_user.recent_repo_commits.values.first).to eq(1)
         end
       end
     end
