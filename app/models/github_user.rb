@@ -23,10 +23,22 @@ class GithubUser < SimpleDelegator
     end
   end
 
+  def activity_events
+    github_service.get_url("users/#{nickname}/received_events").map do |event|
+      case event[:type]
+      when 'MemberEvent' then MemberEvent.new(event)
+      when 'CreateEvent' then CreateEvent.new(event)
+      when 'WatchEvent' then WatchEvent.new(event)
+      when 'ForkEvent' then ForkEvent.new(event)
+      end
+    end
+  end
+
   private
     def get_push_events
       github_service.get_url("users/#{nickname}/events").find_all do |event|
         event[:type] == 'PushEvent'
       end
     end
+
 end
