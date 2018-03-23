@@ -7,12 +7,6 @@ class GithubUser < SimpleDelegator
     github_service.get_url('user/starred')
   end
 
-  def push_events
-    get_push_events.map do |raw_event|
-      PushEvent.new(raw_event)
-    end
-  end
-
   def recent_commits
     push_events.sum(&:commit_count)
   end
@@ -41,6 +35,12 @@ class GithubUser < SimpleDelegator
   end
 
   private
+    def push_events
+      get_push_events.map do |raw_event|
+        PushEvent.new(raw_event)
+      end
+    end
+
     def get_push_events
       github_service.get_url("users/#{nickname}/events").find_all do |event|
         event[:type] == 'PushEvent'
