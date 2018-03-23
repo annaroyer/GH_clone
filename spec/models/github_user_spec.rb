@@ -17,9 +17,11 @@ describe GithubUser do
 
       describe '#recent_repo_commits' do
         it 'returns commit counts grouped by repository' do
-          expect(@github_user.recent_repo_commits.count).to eq(3)
-          expect(@github_user.recent_repo_commits.keys.first).to eq('annaroyer/api_curious')
-          expect(@github_user.recent_repo_commits.values.first).to eq(61)
+          VCR.use_cassette('commits') do
+            expect(@github_user.recent_repo_commits.count).to eq(3)
+            expect(@github_user.recent_repo_commits.keys.first).to eq('annaroyer/api_curious')
+            expect(@github_user.recent_repo_commits.values.first).to eq(67)
+          end
         end
       end
 
