@@ -40,5 +40,4 @@ class GithubUser < SimpleDelegator
         event[:type] == 'PushEvent'
       end
     end
-
 end

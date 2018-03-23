@@ -11,9 +11,9 @@ describe 'As a user' do
 
       visit users_path
 
-      expect(page).to have_content('memcmahon started following corneliusellen 3 hours ago')
-      expect(page).to have_content('memcmahon started following you')
-      expect(page).to have_content('lnchambers created a repository lnchambers/potterspec')
+      expect(page).to have_content('mgmilton created a repository mgmilton/oauth_workshop 5 days ago')
+      expect(page).to have_content('slimecog forked slimecog/lesson_plans from turingschool/lesson_plans 15 days ago')
+      expect(page).to have_content('memcmahon created a repository memcmahon/rails_engine 10 days ago')
     end
   end
 end
