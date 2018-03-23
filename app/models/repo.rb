@@ -8,7 +8,7 @@ class Repo
 
   def initialize(attrs={})
     @name = attrs[:name]
-    @html_url = attrs[:owner][:html_url]
+    @html_url = attrs[:html_url]
     @language = attrs[:language]
     @forks_count = attrs[:forks_count]
     @fork = attrs[:fork]
