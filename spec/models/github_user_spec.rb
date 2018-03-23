@@ -50,5 +50,14 @@ describe GithubUser do
         end
       end
     end
+
+    describe '#repos' do
+      it "returns a collection of the user's repositories" do
+        VCR.use_cassette('repos') do
+          expect(@github_user.repos.count).to eq(42)
+          expect(@github_user.repos.first.name).to eq('activerecord_exploration')
+        end
+      end
+    end
   end
 end
