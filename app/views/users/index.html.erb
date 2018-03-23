@@ -1,0 +1,10 @@
+<div class="feed-container">
+  <h1>Browse Activity</h1>
+  <% @github_user.activity_events.each do |event| %>
+  <figure class="feed-card">
+    <%= image_tag event.user_avatar, class: 'avatar-image' %>
+    <p><%= event.summary %></p>
+    <p><%= distance_of_time_in_words(Time.now, event.created_at) %> ago</p>
+  </figure>
+  <% end %>
+</div>
