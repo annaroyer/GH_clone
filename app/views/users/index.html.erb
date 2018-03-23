@@ -1,5 +1,5 @@
 <div class="feed-container">
-  <h1>Browse Activity</h1>
+  <h4>Browse Activity</h4>
   <% @github_user.activity_events.each do |event| %>
   <figure class="feed-card">
     <%= image_tag event.user_avatar, class: 'avatar-image' %>
@@ -7,4 +7,19 @@
     <p><%= distance_of_time_in_words(Time.now, event.created_at) %> ago</p>
   </figure>
   <% end %>
+</div>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Your Repositories <%= @github_user.repo_count %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @github_user.repos.each do |repo| %>
+    <tr>
+      <td><%= link_to repo.name, repo.html_url %></td>
+    </tr>
+    <% end %>
+  </tbody>
 </div>
