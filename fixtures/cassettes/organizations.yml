@@ -1,0 +1,161 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/ultrasaurus/orgs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - token <ACCESS_TOKEN>
+      User-Agent:
+      - Faraday v0.12.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 23 Mar 2018 07:03:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4987'
+      X-Ratelimit-Reset:
+      - '1521792022'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"e3104fbf04834f30d5d739cbca8c2e0f"
+      X-Oauth-Scopes:
+      - user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 520c9da346db88e40719
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.040495'
+      X-Github-Request-Id:
+      - DCF3:6986:1DF68F5:422CEA0:5AB4A6CC
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"login":"radiant","id":14429,"url":"https://api.github.com/orgs/radiant","repos_url":"https://api.github.com/orgs/radiant/repos","events_url":"https://api.github.com/orgs/radiant/events","hooks_url":"https://api.github.com/orgs/radiant/hooks","issues_url":"https://api.github.com/orgs/radiant/issues","members_url":"https://api.github.com/orgs/radiant/members{/member}","public_members_url":"https://api.github.com/orgs/radiant/public_members{/member}","avatar_url":"https://avatars2.githubusercontent.com/u/14429?v=4","description":null},{"login":"mightyverse","id":79720,"url":"https://api.github.com/orgs/mightyverse","repos_url":"https://api.github.com/orgs/mightyverse/repos","events_url":"https://api.github.com/orgs/mightyverse/events","hooks_url":"https://api.github.com/orgs/mightyverse/hooks","issues_url":"https://api.github.com/orgs/mightyverse/issues","members_url":"https://api.github.com/orgs/mightyverse/members{/member}","public_members_url":"https://api.github.com/orgs/mightyverse/public_members{/member}","avatar_url":"https://avatars1.githubusercontent.com/u/79720?v=4","description":""},{"login":"railsbridge","id":81319,"url":"https://api.github.com/orgs/railsbridge","repos_url":"https://api.github.com/orgs/railsbridge/repos","events_url":"https://api.github.com/orgs/railsbridge/events","hooks_url":"https://api.github.com/orgs/railsbridge/hooks","issues_url":"https://api.github.com/orgs/railsbridge/issues","members_url":"https://api.github.com/orgs/railsbridge/members{/member}","public_members_url":"https://api.github.com/orgs/railsbridge/public_members{/member}","avatar_url":"https://avatars1.githubusercontent.com/u/81319?v=4","description":"RailsBridge
+        runs free programming workshops to increase diversity in tech."},{"login":"blazingcloud","id":152096,"url":"https://api.github.com/orgs/blazingcloud","repos_url":"https://api.github.com/orgs/blazingcloud/repos","events_url":"https://api.github.com/orgs/blazingcloud/events","hooks_url":"https://api.github.com/orgs/blazingcloud/hooks","issues_url":"https://api.github.com/orgs/blazingcloud/issues","members_url":"https://api.github.com/orgs/blazingcloud/members{/member}","public_members_url":"https://api.github.com/orgs/blazingcloud/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/152096?v=4","description":null},{"login":"bridgefoundry","id":5875924,"url":"https://api.github.com/orgs/bridgefoundry","repos_url":"https://api.github.com/orgs/bridgefoundry/repos","events_url":"https://api.github.com/orgs/bridgefoundry/events","hooks_url":"https://api.github.com/orgs/bridgefoundry/hooks","issues_url":"https://api.github.com/orgs/bridgefoundry/issues","members_url":"https://api.github.com/orgs/bridgefoundry/members{/member}","public_members_url":"https://api.github.com/orgs/bridgefoundry/public_members{/member}","avatar_url":"https://avatars0.githubusercontent.com/u/5875924?v=4","description":null},{"login":"mobilebridge","id":8952104,"url":"https://api.github.com/orgs/mobilebridge","repos_url":"https://api.github.com/orgs/mobilebridge/repos","events_url":"https://api.github.com/orgs/mobilebridge/events","hooks_url":"https://api.github.com/orgs/mobilebridge/hooks","issues_url":"https://api.github.com/orgs/mobilebridge/issues","members_url":"https://api.github.com/orgs/mobilebridge/members{/member}","public_members_url":"https://api.github.com/orgs/mobilebridge/public_members{/member}","avatar_url":"https://avatars2.githubusercontent.com/u/8952104?v=4","description":"iOS
+        and Android workshops (part of BridgeFoundry)"},{"login":"all-the-hubbub","id":26035688,"url":"https://api.github.com/orgs/all-the-hubbub","repos_url":"https://api.github.com/orgs/all-the-hubbub/repos","events_url":"https://api.github.com/orgs/all-the-hubbub/events","hooks_url":"https://api.github.com/orgs/all-the-hubbub/hooks","issues_url":"https://api.github.com/orgs/all-the-hubbub/issues","members_url":"https://api.github.com/orgs/all-the-hubbub/members{/member}","public_members_url":"https://api.github.com/orgs/all-the-hubbub/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/26035688?v=4","description":"Join
+        us on the dev mailing list: https://groups.google.com/forum/#!forum/hubbub-code"}]'
+    http_version: 
+  recorded_at: Fri, 23 Mar 2018 07:03:40 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/ultrasaurus/orgs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - token <ACCESS_TOKEN>
+      User-Agent:
+      - Faraday v0.12.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 23 Mar 2018 07:03:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4986'
+      X-Ratelimit-Reset:
+      - '1521792022'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"e3104fbf04834f30d5d739cbca8c2e0f"
+      X-Oauth-Scopes:
+      - user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 520c9da346db88e40719
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Runtime-Rack:
+      - '0.035833'
+      X-Github-Request-Id:
+      - DCF4:6983:16354C6:2FC2888:5AB4A6CC
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"login":"radiant","id":14429,"url":"https://api.github.com/orgs/radiant","repos_url":"https://api.github.com/orgs/radiant/repos","events_url":"https://api.github.com/orgs/radiant/events","hooks_url":"https://api.github.com/orgs/radiant/hooks","issues_url":"https://api.github.com/orgs/radiant/issues","members_url":"https://api.github.com/orgs/radiant/members{/member}","public_members_url":"https://api.github.com/orgs/radiant/public_members{/member}","avatar_url":"https://avatars2.githubusercontent.com/u/14429?v=4","description":null},{"login":"mightyverse","id":79720,"url":"https://api.github.com/orgs/mightyverse","repos_url":"https://api.github.com/orgs/mightyverse/repos","events_url":"https://api.github.com/orgs/mightyverse/events","hooks_url":"https://api.github.com/orgs/mightyverse/hooks","issues_url":"https://api.github.com/orgs/mightyverse/issues","members_url":"https://api.github.com/orgs/mightyverse/members{/member}","public_members_url":"https://api.github.com/orgs/mightyverse/public_members{/member}","avatar_url":"https://avatars1.githubusercontent.com/u/79720?v=4","description":""},{"login":"railsbridge","id":81319,"url":"https://api.github.com/orgs/railsbridge","repos_url":"https://api.github.com/orgs/railsbridge/repos","events_url":"https://api.github.com/orgs/railsbridge/events","hooks_url":"https://api.github.com/orgs/railsbridge/hooks","issues_url":"https://api.github.com/orgs/railsbridge/issues","members_url":"https://api.github.com/orgs/railsbridge/members{/member}","public_members_url":"https://api.github.com/orgs/railsbridge/public_members{/member}","avatar_url":"https://avatars1.githubusercontent.com/u/81319?v=4","description":"RailsBridge
+        runs free programming workshops to increase diversity in tech."},{"login":"blazingcloud","id":152096,"url":"https://api.github.com/orgs/blazingcloud","repos_url":"https://api.github.com/orgs/blazingcloud/repos","events_url":"https://api.github.com/orgs/blazingcloud/events","hooks_url":"https://api.github.com/orgs/blazingcloud/hooks","issues_url":"https://api.github.com/orgs/blazingcloud/issues","members_url":"https://api.github.com/orgs/blazingcloud/members{/member}","public_members_url":"https://api.github.com/orgs/blazingcloud/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/152096?v=4","description":null},{"login":"bridgefoundry","id":5875924,"url":"https://api.github.com/orgs/bridgefoundry","repos_url":"https://api.github.com/orgs/bridgefoundry/repos","events_url":"https://api.github.com/orgs/bridgefoundry/events","hooks_url":"https://api.github.com/orgs/bridgefoundry/hooks","issues_url":"https://api.github.com/orgs/bridgefoundry/issues","members_url":"https://api.github.com/orgs/bridgefoundry/members{/member}","public_members_url":"https://api.github.com/orgs/bridgefoundry/public_members{/member}","avatar_url":"https://avatars0.githubusercontent.com/u/5875924?v=4","description":null},{"login":"mobilebridge","id":8952104,"url":"https://api.github.com/orgs/mobilebridge","repos_url":"https://api.github.com/orgs/mobilebridge/repos","events_url":"https://api.github.com/orgs/mobilebridge/events","hooks_url":"https://api.github.com/orgs/mobilebridge/hooks","issues_url":"https://api.github.com/orgs/mobilebridge/issues","members_url":"https://api.github.com/orgs/mobilebridge/members{/member}","public_members_url":"https://api.github.com/orgs/mobilebridge/public_members{/member}","avatar_url":"https://avatars2.githubusercontent.com/u/8952104?v=4","description":"iOS
+        and Android workshops (part of BridgeFoundry)"},{"login":"all-the-hubbub","id":26035688,"url":"https://api.github.com/orgs/all-the-hubbub","repos_url":"https://api.github.com/orgs/all-the-hubbub/repos","events_url":"https://api.github.com/orgs/all-the-hubbub/events","hooks_url":"https://api.github.com/orgs/all-the-hubbub/hooks","issues_url":"https://api.github.com/orgs/all-the-hubbub/issues","members_url":"https://api.github.com/orgs/all-the-hubbub/members{/member}","public_members_url":"https://api.github.com/orgs/all-the-hubbub/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/26035688?v=4","description":"Join
+        us on the dev mailing list: https://groups.google.com/forum/#!forum/hubbub-code"}]'
+    http_version: 
+  recorded_at: Fri, 23 Mar 2018 07:03:41 GMT
+recorded_with: VCR 4.0.0

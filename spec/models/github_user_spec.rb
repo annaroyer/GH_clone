@@ -51,7 +51,7 @@ describe GithubUser do
     end
 
     describe '#organizations' do
-      xit 'returns a collection of organizations a user is in' do
+      it 'returns a collection of organizations a user is in' do
         VCR.use_cassette('organizations') do
           allow(@github_user).to receive(:nickname).and_return('ultrasaurus')
           expect(@github_user.organizations.count).to eq(7)
