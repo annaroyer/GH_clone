@@ -28,6 +28,12 @@ class GithubUser < SimpleDelegator
     end
   end
 
+  def repos
+    github_service.get_url("user/repos?per_page=#{repo_count}").map do |raw_repo|
+      Repo.new(raw_repo)
+    end
+  end
+
   def organizations
     github_service.get_url("users/#{nickname}/orgs").map do |org|
       Organization.new(org) if org
