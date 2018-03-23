@@ -12,9 +12,10 @@ describe 'As a user' do
         .to_return(status: 200, body: repos, headers: {})
 
       visit users_path
-      click_on "Repositories #{user.repo_count}"
 
-
+      expect(page).to have_link('api_curious')
+      expect(page).to have_link('gif_generator')
+      expect(page).to have_link('black_thursday')
     end
   end
 end
