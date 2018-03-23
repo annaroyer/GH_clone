@@ -31,12 +31,14 @@ end
 
 describe 'As a user' do
   context 'When  I log in using github' do
-    scenario 'I can see my basic info' do
+    before(:all) do
       events = File.open('./spec/fixtures/my_events.json')
       stub_request(:get, "https://api.github.com/users/annaroyer/events")
         .to_return(status: 200, body: events, headers: {})
 
       stub_basic_requests
+    end
+    scenario 'I can see my basic info' do
       stub_omniauth
       visit root_path
 
@@ -61,6 +63,20 @@ describe 'As a user' do
       expect(page).to have_content('annaroyer/api_curious 21 commits')
       expect(page).to have_content('annaroyer/dog-party-BE2 1 commit')
       expect(page).to have_content('annaroyer/rales_engine 27 commits')
+    end
+  end
+
+  context'when I click log out' do
+    scenario 'I can no longer access my information' do
+      user = build(:user)
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
+      visit '/annaroyer'
+
+      click_on 'Log Out'
+
+      expect(page).to_not have_content('Anna Royer')
+      expect(page).to have_link('Sign In with Github')
     end
   end
 end
