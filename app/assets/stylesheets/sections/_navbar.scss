@@ -1,13 +1,20 @@
 .navbar {
   display: flex;
-  padding: 0 15%;
+  padding-left: 15%;
   align-items: center;
   background: linear-gradient(#232323, #303030);
   width: 100%;
   border-radius: 0px;
   .nav-link {
     color: white;
-    padding: 15px;
+    padding: 10px;
+  }
+  .navbar-center {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-right {
+    margin-left: 20%;
   }
   .search-bar {
     background-color: grey;
