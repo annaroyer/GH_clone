@@ -6,10 +6,7 @@ describe 'As a user' do
       user = build(:user)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
-      stub_basic_requests
-      repos = File.open('./spec/fixtures/repos.json')
-      stub_request(:get, "https://api.github.com/users/annaroyer/repos")
-        .to_return(status: 200, body: repos, headers: {})
+      stub_basic_requests  
 
       visit users_path
 
