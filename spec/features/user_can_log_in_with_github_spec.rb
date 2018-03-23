@@ -43,7 +43,6 @@ describe 'As a user' do
       visit root_path
 
       click_link 'Sign In with Github'
-      visit '/annaroyer'
 
       expect(page).to have_link('Log Out')
 
