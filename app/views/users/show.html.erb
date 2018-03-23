@@ -5,7 +5,7 @@
   <p><%= current_user.bio %></p>
   <p><%= image_tag 'location-icon.png', class: 'small-icon-image' %><%= current_user.location %></p>
   <%= image_tag 'mail-icon.png', class: 'small-icon-image' %><%= mail_to current_user.email %>
-  <% if @github_user.organizations %>
+  <% unless @github_user.organizations.empty? %>
     <h4>Organizations</h4>
     <div class="organizations">
       <% @github_user.organizations.each do |org| %>
