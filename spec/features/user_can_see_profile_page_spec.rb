@@ -13,7 +13,7 @@ def stub_omniauth
       "image"=>"https://avatars0.githubusercontent.com/u/26782839?v=4",
       "urls"=>{"GitHub"=>"https://github.com/annaroyer", "Blog"=>""}
     },
-    "credentials"=>{"token"=>12345},
+    "credentials"=>{"token"=>ENV['ACCESS_TOKEN']},
     "extra"=>
     {
       "raw_info"=>
@@ -31,12 +31,12 @@ end
 
 describe 'As a user' do
   context 'When  I log in using github' do
-    before(:all) do
-      events = File.open('./spec/fixtures/my_events.json')
+    before(:each) do
+      my_events = File.open('./spec/fixtures/my_events.json')
       stub_request(:get, "https://api.github.com/users/annaroyer/events")
-        .to_return(status: 200, body: events, headers: {})
+        .to_return(status: 200, body: my_events, headers: {})
 
-      stub_basic_requests
+        stub_basic_requests
     end
     scenario 'I can see my basic info' do
       stub_omniauth
