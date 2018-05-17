@@ -4,16 +4,15 @@ A "clone" of the GitHub newsfeed and personal profile page.
 
 Uses the GitHub OmniAuth authentication library to authenticate users through GitHub OAuth 2.0.
 
-Consumes GitHub's REST API version 3 to display:
-* The user's account information, including
+Consumes GitHub's REST API version 3 to display the user's account information, including:
   * profile picture
-   * location
-   * email
-   * repositories
-   * starred repositories
-   * followers and following
-   * a summary feed of their recent activity and commits.
-   * a summary feed of recent activity of users they are following
+  * location
+  * email
+  * repositories
+  * starred repositories
+  * followers and following
+  * a summary feed of their recent activity and commits.
+  * a summary feed of recent activity of users they are following
 
 ## Getting Started
 
