@@ -1,5 +1,7 @@
 # GitHub "Clone"
 
+View the deployed application here [GitHub Clone](https://evening-ravine-96663.herokuapp.com)
+
 A "clone" of the GitHub newsfeed and personal profile page.
 
 Uses the GitHub OmniAuth authentication library to authenticate users through GitHub OAuth 2.0.
@@ -45,10 +47,6 @@ To run the tests:
 rspec
 ```
 Tests include model and feature specs.
-
-## Deployment
-
-You can view the deployed application here: [GitHub Clone](https://evening-ravine-96663.herokuapp.com)
 
 ## Built With
 
